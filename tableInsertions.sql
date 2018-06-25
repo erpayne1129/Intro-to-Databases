@@ -51,3 +51,15 @@ insert into lessee( ssn, fname, lanme, paymenttype, cardnumber, licensenumber, e
 insert into lessee( ssn, fname, lanme, paymenttype, cardnumber, licensenumber, email, phone, insurance) values (88975648,'Sam','Flynn','debit','1155 2222 3333 4444','123456782','oing@email.com','123-456-782',424815312);
 insert into lessee( ssn, fname, lanme, paymenttype, cardnumber, licensenumber, email, phone, insurance) values (93687549,'Lily','Huang','credit','1166 2222 3333 4444','123456781','zkzk@email.com','123-456-781',548392042);
 insert into lessee( ssn, fname, lanme, paymenttype, cardnumber, licensenumber, email, phone, insurance) values (10147526,'Zed','Allen','debit','1177 2222 3333 4444','123456780','opop@email.com','123-456-780',984827532);
+
+
+insert into office values('dallas','texas', 75205, 28921283, 12345678);
+insert into office values('allen', 'texas', 75214, 89023842, 87654321);
+insert into office values('arlington', 'texas', 75242, 79252324, 54839215);
+insert into office values('christy','texas', 75245, 64829417, 12345678);
+insert into office values('allen', 'texas', 75234, 11234244, 87654321);
+insert into office values('richardson', 'texas', 75242, 89884212, 54839215);
+insert into office values('dallas','texas', 75943, 43371832, 12345678);
+insert into office values('mckinney', 'texas', 75203, 94832232, 87654321);
+insert into office values('irving', 'texas', 75245, 74232312, 54839215);
+insert into office values('dallas', 'texas', 75259, 74838291, 87654321);
