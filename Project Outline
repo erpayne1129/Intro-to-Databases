@@ -1,0 +1,66 @@
+Travis Johnson
+Aaron White
+Adetoye Efunnuga
+Danny Choi
+Ethan Payne 
+Zijia Ding
+
+
+Rental System
+ 
+        	Rental System
+·      Vehicles
+·      Paperwork or Documents
+	·      Office
+	·      Employee
+	·      Lessee
+	.    Insurance
+ 
+
+Vehicles
+·      Type: standard, luxury
+·      Place: hotel, airport, dealership
+·      Insurance: minimum, premium
+·      Size: sedan, truck
+
+	Office:	
+			 ·      City: dallas
+			·      State: Texas
+			·      Branch Number: 20315
+			·      Manager SSN: 123567894
+
+	
+Employee:
+			·      Employee SSN: 123456789
+			·      Manager SSN: 123456788
+			·      FName: Fred
+			·      LName: Fredderson
+			·      Age: 26
+			·      Role: Accountant
+
+
+	
+
+Lessee
+			·      Age: integer 21+
+			·      First Name: Jim
+			·      Last Name: Jimmerson
+			·      payment method: debit or credit
+			·      card number: 1111 2222 3333 4444
+			·      Drivers License number: 123456789
+			·      Email: jj@email.com
+			·      phone number: 123-456-789
+			·       Insurance Provider: AllState
+ 
+	
+Insurance
+			.   Type: full coverage including roadside assistance
+		 	.   Price: $20
+			.   Duration: 3 days
+ 
+It is easier to gather ideas on the topic, and branch off or expand more. This project is practical because it is used constantly in our current society. The system goes in-depth into various systems; it contains other sub-systems which interact effectively with each other; for example, insurance is a separate system under the rental system which is provided to customers.
+Our motivation for choosing this topic is based off our personal experience with the system itself. We all have rented either a car, book, game etc and are familiar with how the process work. Our goal from this project is to understand what goes on within the rental system and how it’s so effective.
+ 
+This system can be incorporated into any company, and slightly altered to fit into any company that offers rental services. This system can also be applied to companies that rent other types of vehicles like boats, rvs, jet skis etc; also, this system become valuable when we travel from one place to another for either business or vacation.  
+
+
