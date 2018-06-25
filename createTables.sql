@@ -48,4 +48,4 @@ create table Vehicle(
  branchNumber int,
  Mgr_SSN int,
  Primary key (branchNumber),
- Foreign key (Mgr_SSN) references Employee(Emp_SSN));
+ Foreign key (Mgr_SSN) references Employee(ssn));
