@@ -39,7 +39,7 @@ create table Vehicle(
  size varchar(25),
  vin varchar(25),
  primary key(vin),
- foreign key (vin) references insurance (id));
+ foreign key (insurance) references insurance (id));
  
  create table office (
  city varchar(15),
