@@ -11,7 +11,7 @@ create table employee (
 
 create table insurance (
     insuranceid int,
-    owner varchar(25),
+    company varchar(25),
     description varchar(25),
     price float,
     duration int,
