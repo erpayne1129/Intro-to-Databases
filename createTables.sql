@@ -17,3 +17,17 @@ create table insurance (
     duration int,
     primary key(insuranceid)
 )
+
+create table lessee (
+    ssn int,
+    fname varchar(25),
+    lanme varchar(25),
+    paymenttype varchar(25),
+    cardnumber varchar(25),
+    licensenumber int,
+    email varchar(25),
+    phone varchar(25),
+    insurance int,
+    primary key(ssn),
+    foreign key (insurance) references insurance(insuranceid)
+)
