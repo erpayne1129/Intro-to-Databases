@@ -7,7 +7,7 @@ create table employee (
     age int,
     primary key(ssn),
     foreign key (managerssn) references employee(ssn)
-)
+);
 
 create table insurance (
     insuranceid int,
@@ -16,7 +16,7 @@ create table insurance (
     price float,
     duration int,
     primary key(insuranceid)
-)
+);
 
 create table lessee (
     ssn int,
@@ -30,22 +30,25 @@ create table lessee (
     insurance int,
     primary key(ssn),
     foreign key (insurance) references insurance(insuranceid)
-)
+);
 
 create table Vehicle(
- type varchar(25),
- place varchar(25),
- insurance varchar(25),
- size varchar(25),
- vin varchar(25),
- primary key(vin),
- foreign key (insurance) references insurance (id));
+    model varchar(25),
+    description varchar(25),
+    place varchar(25),
+    insurance int,
+    passengers int,
+    vin varchar(25),
+    primary key(vin),
+    foreign key (insurance) references insurance(insuranceid)
+);
  
  create table office (
- city varchar(15),
- state varchar(15),
- postalCode int,
- branchNumber int,
- Mgr_SSN int,
- Primary key (branchNumber),
- Foreign key (Mgr_SSN) references Employee(ssn));
+    city varchar(15),
+    stateabr varchar(15),
+    postalCode int,
+    branchNumber int,
+    Mgr_SSN int,
+    Primary key (branchNumber),
+    Foreign key (Mgr_SSN) references Employee(ssn)
+);
