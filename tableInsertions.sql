@@ -52,6 +52,16 @@ insert into lessee( ssn, fname, lanme, paymenttype, cardnumber, licensenumber, e
 insert into lessee( ssn, fname, lanme, paymenttype, cardnumber, licensenumber, email, phone, insurance) values (93687549,'Lily','Huang','credit','1166 2222 3333 4444','123456781','zkzk@email.com','123-456-781',548392042);
 insert into lessee( ssn, fname, lanme, paymenttype, cardnumber, licensenumber, email, phone, insurance) values (10147526,'Zed','Allen','debit','1177 2222 3333 4444','123456780','opop@email.com','123-456-780',984827532);
 
+INSERT INTO  Vehicle (model, description, place, insurance, passengers, vin) VALUES ('2014 Civic', 'White', 'Richardson, TX', 848204421, 2, '12345');
+INSERT INTO  Vehicle (model, description, place, insurance, passengers, vin) VALUES ('2016 Accent', 'White', 'Irving, TX', 438291248, 4, '58693');
+INSERT INTO  Vehicle (model, description, place, insurance, passengers, vin) VALUES ('2007 Impala', 'Silver', 'Plano, TX', 112313413, 2, '69674');
+INSERT INTO  Vehicle (model, description, place, insurance, passengers, vin) VALUES ('2012 Escape', 'Black', 'Richardson, TX', 738194243, 2, '34962');
+INSERT INTO  Vehicle (model, description, place, insurance, passengers, vin) VALUES ('2017 Accord', 'White', 'Richardson, TX', 573910313, 3, '19386');
+INSERT INTO  Vehicle (model, description, place, insurance, passengers, vin) VALUES ('2011 Maxima', 'Black', 'Coppell, TX', 974914891, 1, '95483');
+INSERT INTO  Vehicle (model, description, place, insurance, passengers, vin) VALUES ('2011 Altima', 'Grey', 'Irving, TX', 231421232, 2, '69504');
+INSERT INTO  Vehicle (model, description, place, insurance, passengers, vin) VALUES ('2013 MX-5', 'Red', 'Addison, TX', 424815312, 1, '68241');
+INSERT INTO  Vehicle (model, description, place, insurance, passengers, vin) VALUES ('2018 Sierra', 'White', 'Plano, TX', 548392042, 2, '75832');
+INSERT INTO  Vehicle (model, description, place, insurance, passengers, vin) VALUES ('2012 Silverado', 'Silver', 'Grand prarie, TX', 984827532, 1, '25796');
 
 insert into office values('dallas','texas', 75205, 28921283, 12345678);
 insert into office values('allen', 'texas', 75214, 89023842, 87654321);
@@ -65,13 +75,3 @@ insert into office values('irving', 'texas', 75245, 74232312, 54839215);
 insert into office values('dallas', 'texas', 75259, 74838291, 87654321);
 
 
-INSERT INTO  Vehicle (model, description, place, insurance, passengers, vin) VALUES ('2014 Civic', 'White', 'Richardson, TX', 848204421, 2, '12345');
-INSERT INTO  Vehicle (model, description, place, insurance, passengers, vin) VALUES ('2016 Accent', 'White', 'Irving, TX', 438291248, 4, '58693');
-INSERT INTO  Vehicle (model, description, place, insurance, passengers, vin) VALUES ('2007 Impala', 'Silver', 'Plano, TX', 112313413, 2, '69674');
-INSERT INTO  Vehicle (model, description, place, insurance, passengers, vin) VALUES ('2012 Escape', 'Black', 'Richardson, TX', 738194243, 2, '34962');
-INSERT INTO  Vehicle (model, description, place, insurance, passengers, vin) VALUES ('2017 Accord', 'White', 'Richardson, TX', 573910313, 3, '19386');
-INSERT INTO  Vehicle (model, description, place, insurance, passengers, vin) VALUES ('2011 Maxima', 'Black', 'Coppell, TX', 974914891, 1, '95483');
-INSERT INTO  Vehicle (model, description, place, insurance, passengers, vin) VALUES ('2011 Altima', 'Grey', 'Irving, TX', 231421232, 2, '69504');
-INSERT INTO  Vehicle (model, description, place, insurance, passengers, vin) VALUES ('2013 MX-5', 'Red', 'Addison, TX', 424815312, 1, '68241');
-INSERT INTO  Vehicle (model, description, place, insurance, passengers, vin) VALUES ('2018 Sierra', 'White', 'Plano, TX', 548392042, 2, '75832');
-INSERT INTO  Vehicle (model, description, place, insurance, passengers, vin) VALUES ('2012 Silverado', 'Silver', 'Grand prarie, TX', 984827532, 1, '25796');
