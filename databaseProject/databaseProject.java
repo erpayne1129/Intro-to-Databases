@@ -89,7 +89,17 @@ public class databaseProject extends Application {
 
       System.out.println("Database connected");
 
-      String queryString = "select * from Employee";
+      String queryString = "select * from vehicle";
+      
+      String updateQuery = "UPDATE vehicle SET " +
+	"model = ?, description = ?, place = ?, insurance = ?, passengers = ? " +
+	"WHERE vin = ?";
+      
+      String deleteQuery = "DELETE FROM vehicle " +
+	"WHERE vin = ?";
+      
+      String insertQuery = "INSERT INTO vehicle " +
+	"VALUES(?, ?, ?, ?, ?, ?)";
 
       // Create a statement
       preparedStatement = connection.prepareStatement(queryString);
